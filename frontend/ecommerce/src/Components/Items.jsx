@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import all_product from './Assets/all_product';
 const Items = (props) => {
   return (
     <div className='item bg-white rounded-lg shadow-md overflow-hidden flex flex-col'>
