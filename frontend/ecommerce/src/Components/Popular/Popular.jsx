@@ -9,6 +9,7 @@ const Popular = () => {
       <hr className='w-24 border-t-4 border-red-800 mb-8' />
       <div className="popular-item grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full">
         {data_product.map((item, i) => (
+          
           <Items
             key={i}
             id={item.id}
